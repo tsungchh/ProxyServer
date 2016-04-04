@@ -350,7 +350,6 @@ int main(int argc, char **argv) {
                        (void *) &connfd_thread);
     }
     
-    pthread_mutex_destroy(&mutex);   
     pthread_exit(NULL);
     return 0;
 }
